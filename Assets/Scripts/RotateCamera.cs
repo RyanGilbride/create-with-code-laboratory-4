@@ -6,13 +6,15 @@ public class RotateCamera : MonoBehaviour
 {
     public float rotationSpeed = 80.0f;
 
-    // Start is called before the first frame update
+
+    // Start called before the first frame update
     void Start()
     {
     
     }
 
-    // Update is called once per frame
+
+    // Update called once per frame
     void Update()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
