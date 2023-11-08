@@ -11,14 +11,14 @@ public class PlayerController : MonoBehaviour
     private float powerupStrength = 15.0f;
     public GameObject powerupIndicator;
 
-    // Start is called before the first frame update
+    // Start called before the first frame update
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
         focalPoint = GameObject.Find("Focal Point");
     }
 
-    // Update is called once per frame
+    // Update called once per frame
     void Update()
     {
         float forwardInput = Input.GetAxis("Vertical");
